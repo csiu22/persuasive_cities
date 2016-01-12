@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.table {
+  width: 540px;
+  margin: 10px;
+}
+
+table {
+  width:50%;
+  float:left;
+/*  display: inline-table;*/
+}
+
+#total {
+  clear: both;
+  width: 1100px;
+}
+
+#Boston caption {
+  color:red;
+}
+
+#Cambridge caption {
+  color:blue;
+}
+
+#bosTot {
+  color: red;
+}
+
+#camTot {
+  color: blue;
+}
