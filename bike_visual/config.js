@@ -1,4 +1,4 @@
-var connectionString = process.env.DATABASE_URL || 'postgres://csiu22:csiu22@18.85.28.250/bicycle';
+var connectionString = process.env.DATABASE_URL || 'postgres://csiu22@localhost/bicycle';
 module.exports = connectionString;
 
 
