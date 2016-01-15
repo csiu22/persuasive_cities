@@ -19,10 +19,6 @@ router.get('/data', function(req, res) {
 
   // Get a Postgres client from the connection pool
   pg.connect(connectionString, function(err, client, done) {
-
-    console.log(connectionString);
-    console.log(client);
-
     // Handle connection errors
     if(err) {
       done();
