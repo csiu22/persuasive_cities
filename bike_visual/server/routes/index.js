@@ -26,8 +26,6 @@ router.get('/data', function(req, res) {
     // Handle connection errors
     if(err) {
       done();
-      console.log(connectionString);
-      console.log(client);
       console.log(err);
       return res.status(500).json({ success: false});
     }
