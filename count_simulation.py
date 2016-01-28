@@ -31,7 +31,7 @@ class MyThread(Thread):
             connection.commit()
             rand = randint(1,5)
 
-def connect_to_database(dsn="/var/run/postgresql bicycle"):
+def connect_to_database(dsn="dbname=bicycle"):
 # def connect_to_database(dsn="postgres://localhost:5432/bicycle"):
   try:
     return psycopg2.connect(dsn)
